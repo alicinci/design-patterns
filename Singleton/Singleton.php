@@ -52,7 +52,7 @@ class Singleton
      * Singleton örneğini alacağımız metod.
      * İlk çalıştığında nesneyi oluşturur ve onu statik
      * alana yerleştirir.
-     * Sonraki çalıştırmalarda, statik alanda depolanan istemcinin mevcut nesnesini döndürür.
+     * Tekrar çağrıldığında, statik alanda depolanan istemcinin mevcut nesnesini döndürür.
      *
      * @return mixed|static
      */
