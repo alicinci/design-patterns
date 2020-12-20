@@ -29,7 +29,7 @@ class Singleton
      * Singleton'ın kurucusu public olmamalıdır.
      * Ancak, alt sınıfa izin vermek istiyorsak private olamaz.
      * Alt sınıfların bağlantıları kurucu metotta sağlanacak ve
-     * private tanımlanacak.
+     * protected tanımlanacak.
      *
      * Singleton constructor.
      */
